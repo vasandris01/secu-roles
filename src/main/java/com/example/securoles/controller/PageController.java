@@ -30,9 +30,7 @@ public class PageController {
     }
 
     @GetMapping("/reg")
-    public String getRegPage(//*Model model*//
-                              ){
-//        model.addAttribute("role", false);
+    public String getRegPage(){
         return "reg";
     }
 
